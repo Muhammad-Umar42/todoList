@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: antiquewhite;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  margin-top: 100px;
+  width: 400px;
+  padding: 20px 10px;
+  border: transparent;
+  outline: transparent;
+}
+.btn button {
+  display: block;
+  padding: 10px 15px;
+  border: transparent;
+  font-size: 20px;
+  font-style: italic;
+  background-color: goldenrod;
+  margin: 20px auto;
+}
+.todo h3 {
+  background-color: #fff;
+  max-width: 300px;
+  width: 100%;
+
+  text-align: left;
+  padding: 10px;
+}
+.remove {
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border: transparent;
+  outline: transparent;
+}
+.edit {
+  padding: 10px;
+  background-color: rgba(25, 228, 25, 0.85);
+  color: #fff;
+  border: transparent;
+  outline: transparent;
+}
