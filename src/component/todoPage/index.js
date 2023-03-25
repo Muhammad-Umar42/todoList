@@ -59,7 +59,8 @@ const Index = () => {
         setinputData(data.name)
         setedit(data)
     }
-    const handleupdate = () => {
+    const handleupdate = (e) => {
+        e.preventDefault()
         // const newupDate = allData.filter((ele) => {
 
         //     // console.log(ele)
